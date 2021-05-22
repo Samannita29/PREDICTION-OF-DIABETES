@@ -7,8 +7,6 @@ import math
 import pickle
 
 app = Flask("__name__",template_folder='templates')
-
-
 q = ""
 
 @app.route("/")
