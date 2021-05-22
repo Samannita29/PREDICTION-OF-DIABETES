@@ -11,7 +11,7 @@ q = ""
 
 @app.route("/")
 def loadPage():
-	return render_template('template/home.html', query="")
+	return render_template('home.html', query="")
 
 
 
