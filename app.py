@@ -6,12 +6,12 @@ import re
 import math
 import pickle
 
-app = Flask("__name__",template_folder='../templates')
+app = Flask("__name__",template_folder='template')
 q = ""
 
 @app.route("/")
 def loadPage():
-	return render_template('templates/home.html', query="")
+	return render_template('template/home.html', query="")
 
 
 
